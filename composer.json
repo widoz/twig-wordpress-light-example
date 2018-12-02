@@ -10,5 +10,10 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "php": ">=7.1",
+        "twigwp/twig-wordpress": "^1.4",
+        "widoz/wordpress-model": "dev-master",
+        "twigwp/twig-wordpress-view": "dev-develop"
+    }
 }
