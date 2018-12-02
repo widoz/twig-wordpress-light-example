@@ -6,9 +6,9 @@ twig in a WordPress context.
 # Dependencies 
 
 - [Twig Wordpress](https://github.com/widoz/twig-wordpress) A library that help to use common WordPress filters and functions into [Twig](https://github.com/twigphp/Twig).
-- [WordPress Model](https://github.com/widoz/wordpress-model)
-- [Twig WordPress View](https://github.com/widoz/twig-wordpress-view)
-- [WordPress Template](https://github.com/widoz/wordpress-template)
+- [WordPress Model](https://github.com/widoz/wordpress-model) A WordPress plugin / composer package of reusable models.
+- [Twig WordPress View](https://github.com/widoz/twig-wordpress-view) A WordPress plugin / composer package of twig templates.
+- [WordPress Template](https://github.com/widoz/wordpress-template) Interfaces for Twig for WordPress ecosystem. 
 
 # Requirements
 
