@@ -15,5 +15,8 @@
         "twigwp/twig-wordpress": "^1.4",
         "widoz/wordpress-model": "dev-master",
         "twigwp/twig-wordpress-view": "dev-develop"
+    },
+    "require-dev": {
+        "inpsyde/php-coding-standards": "^0.13.0@dev"
     }
 }

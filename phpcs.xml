@@ -9,7 +9,7 @@
 
     <file>./src</file>
 
-    <config name="text_domain" value="wordpress-model"/>
+    <config name="text_domain" value="twig-wordpress-light-example"/>
 
     <rule ref="Inpsyde"/>
 </ruleset>
