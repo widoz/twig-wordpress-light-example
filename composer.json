@@ -1,0 +1,14 @@
+{
+    "name": "guido/twig-wordpress-light-example",
+    "description": "Light example for Twig for WordPress Environment",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guido Scialfa",
+            "email": "dev@guidoscialfa.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
