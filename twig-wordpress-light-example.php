@@ -59,7 +59,9 @@ add_action('plugins_loaded', function () {
     require_once __DIR__ . '/vendor/autoload.php';
 
     $twig = new Factory(new FilesystemLoader(__DIR__ . '/views/'), []);
-    $twigController = new TwigController($twig->create());
+    $twig = $twig->create();
+
+    $twigController = new TwigController($twig);
 
     add_filter('the_content', function ($content) use ($twigController) {
         if (!is_singular()) {
