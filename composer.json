@@ -16,6 +16,11 @@
         "widoz/wordpress-model": "dev-master",
         "twigwp/twig-wordpress-view": "dev-develop"
     },
+    "autoload": {
+        "psr-4": {
+            "TwigWordPressLightExample\\": "src/"
+        }
+    },
     "require-dev": {
         "inpsyde/php-coding-standards": "^0.13.0@dev"
     }

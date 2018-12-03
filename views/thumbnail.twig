@@ -1,0 +1,8 @@
+{% if image.attributes.url %}
+    <img src="{{ image.attributes.url }}"
+         class="{{ image.attributes.class }}"
+         alt="{{ image.attributes.alt }}"
+         width="{{ image.attributes.width }}"
+         height="{{ image.attributes.height }}"
+    />
+{% endif %}
