@@ -62,6 +62,10 @@ add_action('plugins_loaded', function () {
     $twigController = new TwigController($twig->create());
 
     add_filter('the_content', function ($content) use ($twigController) {
+        if (!is_singular()) {
+            return $content;
+        }
+
         ob_start();
 
         $postThumbnailId = (int)get_post_thumbnail_id();
